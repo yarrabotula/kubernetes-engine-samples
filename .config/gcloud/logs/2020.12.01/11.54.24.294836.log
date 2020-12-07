@@ -1,0 +1,9 @@
+2020-12-01 11:54:24,295 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2020-12-01 11:54:24,304 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'git_helper']
+2020-12-01 11:54:24,306 DEBUG    root            Running [gcloud.auth.git-helper] with arguments: [--ignore-unknown: "True", METHOD: "get"]
+2020-12-01 11:54:24,330 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/?recursive=true
+2020-12-01 11:54:24,336 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/token
+2020-12-01 11:54:24,345 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/?recursive=true
+2020-12-01 11:54:24,352 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/token
+2020-12-01 11:54:24,362 INFO     root            Display format: "default"
+2020-12-01 11:54:24,363 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,39 @@
+2020-12-01 11:53:14,122 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-12-01 11:53:14,124 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2020-12-01 11:53:14,126 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json", --quiet: "True"]
+2020-12-01 11:53:14,157 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/?recursive=true
+2020-12-01 11:53:14,164 DEBUG    google_auth_httplib2 Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/yarrabotula_venkat@thbs.com/token
+2020-12-01 11:53:14,181 INFO     root            Display format: "default json"
+2020-12-01 11:53:14,183 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "component_manager": {
+        "disable_update_check": "True"
+      },
+      "compute": {
+        "gce_metadata_read_timeout_sec": "30"
+      },
+      "core": {
+        "account": "yarrabotula_venkat@thbs.com",
+        "disable_prompts": "True",
+        "disable_usage_reporting": "True"
+      },
+      "metrics": {
+        "environment": "cloudcode.vscode",
+        "environment_version": "1.6.0"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMAl59kfPU3SodkVj3esn1Otn00dPfLELtvFbni_UOxWIjc-ly4HYxcRdmGjQAEKNY505v8TZC8_gy6Wb4lTrrCVQLs_xWorT3y5UR_8Ux9Nou3Cr7onjNBKmQQczlkbU6_ridg2_c37PbO8DbmDKRyN8z-r3nmw3ayq41bqmnGw04C95wOCFrUlqvLNSYq0oy22lwdqdfKiZ-aoUMC9q4cKe-TqTEHycpnrNwL0PqYAprzgVXsEerCHmjr5jav94IWPsY4zjFFKHGx8lA",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjJlMzAyNWYyNmI1OTVmOTZlYWM5MDdjYzJiOTQ3MTQyMmJjYWViOTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA1ODc4NDczNzk2MDUzNDA5NDM4IiwiZW1haWwiOiJ5YXJyYWJvdHVsYV92ZW5rYXRAdGhicy5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlhhSWV3OGJYWTkxTlY2ZU1USXZ2anciLCJpYXQiOjE2MDY4MjMyOTIsImV4cCI6MTYwNjgyNjg5MiwianRpIjoiMjIyYzBjZTlkMzdlNTExNTMwZjJkNGE3ZjZiYjUyNGI5NTZlMGQyOCJ9.Z7ijwHBBITpe6iAW-X1azm07-KFTLrbtY9HUFx1urtCsrX5yh0ZnFpR-W2902R6NSLeoDhharCXCz2QClhifyVB6mtBGwx9dj9mg98yO8557zXB9qXKe_2GSys1Bh-8qKdkQyKAAeezZk1Pqj-GFmUFMrTIGmlOr08y16dh8nefKlqPFywa8iIZmCNGgYF68pRQoqwAu_mgSL4wnrLmlRLHRGY1FugvRp4g4NELrs5HO83F-N4gAreQE26aKedi0pNlSPn5IawZvRFZUbexgU-560QoYnM6pmzI1gyigLZ21aUQ9sDxJmPPV48agT-WWns9gvM2osTrCeOw6sCw5QA",
+    "token_expiry": "2020-12-01T12:47:42Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/yarrabotula_venkat/.config/gcloud/config_sentinel"
+  }
+}
+2020-12-01 11:53:14,183 INFO     ___FILE_ONLY___ 
+
+2020-12-01 11:53:14,184 DEBUG    root            SDK update checks are disabled.

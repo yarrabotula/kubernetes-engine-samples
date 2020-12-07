@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/yarrabotula_venkat/.theia/workspace-storage/b2e7bce08ef7d782a6d82b883666f437/redhat.java/.bb6f7ea22bd3f74ef60a881146ddb9db579f69b9-audit.json",
+    "files": [
+        {
+            "date": 1607022580873,
+            "name": "/home/yarrabotula_venkat/.theia/workspace-storage/b2e7bce08ef7d782a6d82b883666f437/redhat.java/client.log.2020-12-03",
+            "hash": "ccfc7a22a6e42d292b98e8599c7ac149"
+        }
+    ]
+}
